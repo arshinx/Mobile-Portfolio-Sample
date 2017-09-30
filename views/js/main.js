@@ -503,9 +503,8 @@ function updatePositions() {
   window.performance.mark("mark_start_frame");
 
   items = document.querySelectorAll('.mover');
+  scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
   for (var i = 0; i < items.length; i++) {
-    // document.body.scrollTop is no longer supported in Chrome.
-    scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
     phase = Math.sin((scrollTop / 1250) + (i % 5));
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
   }
