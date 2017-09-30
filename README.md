@@ -1,6 +1,6 @@
 ## Optimized
 
-Main Project:
+Main Project: (PageSpeed Score is 95.0 for Desktop and 94.0 for Mobile)
 1. index.html: Minified CSS and used media tag.
 2. index.html: Encapsulated JS — with asynchronous load.
 3. index.html: Async. loading for web fonts.
