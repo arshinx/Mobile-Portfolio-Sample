@@ -9,6 +9,7 @@ Main Project: (PageSpeed Score is 95.0 for Desktop and 94.0 for Mobile)
 
 Pizza:
 1. Optimized Image(s).
+2. Minimized pizza generation to 10.
 
 ## Website Performance Optimization portfolio project
 
