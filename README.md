@@ -5,7 +5,10 @@ Main Project:
 2. index.html: Encapsulated JS — with asynchronous load.
 3. index.html: Async. loading for web fonts.
 4. Minify perfmatters.js.
-5. Optimized images.
+5. Optimized Image(s).
+
+Pizza:
+1. Optimized Image(s).
 
 ## Website Performance Optimization portfolio project
 
