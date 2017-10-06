@@ -447,16 +447,16 @@ var resizePizzas = function(size) {
     // Switch helps use correct sizing concisely
     switch(size) {
       case "1":
-        newWidth = '25%';
+        width = '25%';
         break;
       case "2":
-        newWidth = '33.3%';
+        width = '33.3%';
         break;
       case "3":
-        newWidth = '50%';
+        width = '50%';
         break;
       default:
-        newWidth = '20%';
+        width = '20%';
     }
   }
 
