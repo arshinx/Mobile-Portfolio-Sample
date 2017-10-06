@@ -421,7 +421,7 @@ var resizePizzas = function(size) {
         return;
 
       default:
-        console.log("bug in changeSliderLabel");
+        console.log("unable to determine size within resizePizzas method.");
     }
 
     // Get 'pizza container' elements
