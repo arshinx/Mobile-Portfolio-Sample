@@ -457,6 +457,7 @@ var resizePizzas = function(size) {
         break;
       default:
         width = '20%';
+        console.log("unable to determine size within resizePizzas method.");
     }
   }
 
