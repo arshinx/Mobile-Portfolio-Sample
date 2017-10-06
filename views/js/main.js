@@ -435,15 +435,19 @@ var resizePizzas = function(size) {
 
     // Switch helps use correct sizing concisely
     switch(size) {
+
       case "1":
         width = '25%';
         break;
+
       case "2":
         width = '33.3%';
         break;
+
       case "3":
         width = '50%';
         break;
+        
       default:
         width = '20%';
         console.log("unable to determine size within resizePizzas method.");
