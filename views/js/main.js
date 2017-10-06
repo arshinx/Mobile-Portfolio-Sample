@@ -419,10 +419,13 @@ var resizePizzas = function(size) {
       case "3":
         document.querySelector("#pizzaSize").innerHTML = "Large";
         return;
-        
+
       default:
         console.log("bug in changeSliderLabel");
     }
+
+    // Get 'pizza container' elements
+    // Modify individual pizza elements
   }
 
   changeSliderLabel(size);
