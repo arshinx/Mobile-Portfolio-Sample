@@ -405,6 +405,9 @@ var resizePizzas = function(size) {
   // Changes the value for the size of the pizza above the slider
   function changeSliderLabel(size) {
 
+    // Track width
+    var width = '25.0%';
+
     // Switch helps use correct sizing concisely
     switch(size) {
 
