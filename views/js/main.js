@@ -418,6 +418,7 @@ var resizePizzas = function(size) {
 
       case "2":
         document.querySelector("#pizzaSize").innerHTML = "Medium";
+        width = '33.3%';
         return;
 
       case "3":
