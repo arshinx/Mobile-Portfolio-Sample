@@ -409,17 +409,14 @@ var resizePizzas = function(size) {
 
       case "1":
         document.querySelector("#pizzaSize").innerHTML = "Small";
-        width = "25.0%";
         return;
 
       case "2":
         document.querySelector("#pizzaSize").innerHTML = "Medium";
-        width = "33.3%";
         return;
 
       case "3":
         document.querySelector("#pizzaSize").innerHTML = "Large";
-        width = "50.0%";
         return;
 
       default:
