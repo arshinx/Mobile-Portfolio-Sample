@@ -452,7 +452,9 @@ var resizePizzas = function(size) {
     // Get 'pizza container' elements
     var pizzaContainers = document.getElementsByClassName("randomPizzaContainer");
 
-
+    // Modify individual pizza elements
+    for (var i = 0; i < pizzaContainers.length; i++) {
+    }
 
   }
 
