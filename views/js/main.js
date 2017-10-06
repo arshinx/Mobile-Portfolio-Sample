@@ -536,6 +536,11 @@ document.addEventListener('DOMContentLoaded', function() {
   var s = 256;
   var rows = screen.height / s;
   var pizzaCount = rows * cols;
+
+  // number of pizzas needs to be a minimum of 24
+  if (pizzaCount < 24) {
+    pizzaCount = 24;
+  }
   
   for (var i = 0; i < 50; i++) {
     var elem = document.createElement('img');
