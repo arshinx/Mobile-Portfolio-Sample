@@ -423,6 +423,7 @@ var resizePizzas = function(size) {
 
       case "3":
         document.querySelector("#pizzaSize").innerHTML = "Large";
+        width = "50.0%";
         return;
 
       default:
