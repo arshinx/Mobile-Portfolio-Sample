@@ -11,3 +11,4 @@ Pizza:
 1. Optimized Image(s).
 2. Minimized pizza generation to 50.
 3. Extracted variable declarations and scope assignment (line 500 on main.js).
+4. Remove 'determineDx' function
