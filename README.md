@@ -1,3 +1,8 @@
+## How to view Project
+To inspect the site on your phone, you can run a local server using Terminal or command prompt:
+`$> cd /path/to/your-project-folder`
+`$> python -m SimpleHTTPServer 8080`
+Then, Open a browser and visit `localhost:8080`
 ## Optimized
 
 Main Project: (PageSpeed Score is 95.0 for Desktop and 94.0 for Mobile)
