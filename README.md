@@ -25,4 +25,5 @@ Pizza:
 4. Remove 'determineDx' function.
 5. Refactor 'changePizzaSizes' function.
 6. Moved 'pizzasDiv' outside loop. (~line 479).
-7. Dynamically calculating pizzas (line 529).
+7. Dynamically calculating pizzas (~line 529 - 534).
+8. Declaring 'elem' var outside loop (~line 546).
