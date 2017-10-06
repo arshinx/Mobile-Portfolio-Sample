@@ -27,3 +27,4 @@ Pizza:
 6. Moved 'pizzasDiv' outside loop. (~line 479).
 7. Dynamically calculating pizzas (~line 529 - 534).
 8. Declaring 'elem' var outside loop (~line 546).
+9. Moving pizzas var (~line 547).
