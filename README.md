@@ -25,3 +25,4 @@ Pizza:
 4. Remove 'determineDx' function.
 5. Refactor 'changePizzaSizes' function.
 6. Moved 'pizzasDiv' outside loop. (~line 479).
+7. Dynamically calculating pizzas (line 529).
