@@ -423,14 +423,6 @@ var resizePizzas = function(size) {
         console.log("unable to determine size within resizePizzas method.");
     }
 
-    // Get 'pizza container' elements
-    var pizzaContainers = document.getElementsByClassName("randomPizzaContainer");
-
-    // Modify individual pizza elements
-    for (var i = 0; i < pizzaContainers.length; i++) {
-      // Update width for individual elements
-      pizzaContainers[i].style.width = width;
-    }
   }
 
   changeSliderLabel(size);
@@ -456,6 +448,12 @@ var resizePizzas = function(size) {
         width = '20%';
         console.log("unable to determine size within resizePizzas method.");
     }
+
+    // Get 'pizza container' elements
+    var pizzaContainers = document.getElementsByClassName("randomPizzaContainer");
+
+
+
   }
 
   changePizzaSizes(size);
