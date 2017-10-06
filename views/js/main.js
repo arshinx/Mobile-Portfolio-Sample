@@ -542,9 +542,10 @@ document.addEventListener('DOMContentLoaded', function() {
     pizzaCount = 24;
   }
 
-  // Declare elem outside loop
+  // Declare 'elem' and 'movingPizzas' outside loop
   var elem;
-  
+  var movingPizzas =  document.getElementById("movingPizzas1");
+
   for (var i = 0; i < pizzaCount; i++) {
     elem = document.createElement('img');
     elem.className = 'mover';
