@@ -541,8 +541,8 @@ document.addEventListener('DOMContentLoaded', function() {
   if (pizzaCount < 24) {
     pizzaCount = 24;
   }
-  
-  for (var i = 0; i < 50; i++) {
+
+  for (var i = 0; i < pizzaCount; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
