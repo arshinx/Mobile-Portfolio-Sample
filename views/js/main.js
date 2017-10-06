@@ -428,6 +428,9 @@ var resizePizzas = function(size) {
     var pizzaContainers = document.getElementsByClassName("randomPizzaContainer");
 
     // Modify individual pizza elements
+    for (var i = 0; i < pizzaContainers.length; i++) {
+
+    }
   }
 
   changeSliderLabel(size);
