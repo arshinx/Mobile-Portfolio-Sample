@@ -420,7 +420,7 @@ var resizePizzas = function(size) {
         return;
 
       default:
-        console.log("unable to determine size within resizePizzas method.");
+        console.log("bug in changeSliderLabel");
     }
 
   }
