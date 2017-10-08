@@ -29,3 +29,5 @@ Pizza:
 8. Declaring 'elem' var outside loop (~line 546).
 9. Moving pizzas var (~line 547).
 10. Minify 'pizza.html'.
+
+>FE Nanodegree Project.<
