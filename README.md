@@ -30,4 +30,4 @@ Pizza:
 9. Moving pizzas var (~line 547).
 10. Minify 'pizza.html'.
 
->FE Nanodegree Project.<
+>"FE Nanodegree Project".
