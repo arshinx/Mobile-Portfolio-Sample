@@ -9,7 +9,7 @@ To run using ngrok:
 `$> cd /path/to/your-project-folder`
 `$> ./ngrok http 8080`
 
-## Optimized
+## Optimizations
 
 Main Project: (PageSpeed Score is 95.0 for Desktop and 94.0 for Mobile)
 1. index.html: Minified CSS and used media tag.
@@ -29,5 +29,3 @@ Pizza:
 8. Declaring 'elem' var outside loop (~line 546).
 9. Moving pizzas var (~line 547).
 10. Minify 'pizza.html'.
-
->"FE Nanodegree Project".
